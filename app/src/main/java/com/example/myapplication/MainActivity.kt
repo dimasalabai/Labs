@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         firebutton!!.setEnabled(true)
         audioManager = getSystemService(AUDIO_SERVICE) as AudioManager
     }
-
+//functions
     private fun stopPlay() {
         mPlayerwater!!.stop()
         mPlayerleaf!!.stop()
